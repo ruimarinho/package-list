@@ -3,12 +3,12 @@
  * Test dependencies
  */
 
+var exec = require('child_process').exec;
+var packages = require('../lib');
 var should = require('should');
 var util = require('util');
-var packages = require('../lib');
-var exec = require('child_process').exec;
 
-describe('package list', function () {
+describe('package list', function() {
   it('should return the list of installed pkgs', function(done) {
     packages(function(err, pkgs) {
       pkgs.should.eql({ 'mocha': '1.21.3', 'npm': '1.4.21' });
