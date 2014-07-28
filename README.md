@@ -15,7 +15,7 @@ $ npm install package-list
 
 ## Usage
 
-## CLI Tool
+### Command-line
 
 
 ```js
