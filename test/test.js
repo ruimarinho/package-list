@@ -11,7 +11,7 @@ var exec = require('child_process').exec;
 describe('package list', function () {
   it('should return the list of installed pkgs', function(done) {
     packages(function(err, pkgs) {
-      pkgs.should.eql({ 'mocha': '1.21.1', 'npm': '1.4.21', 'debug': '1.0.4' });
+      pkgs.should.eql({ 'mocha': '1.21.3', 'npm': '1.4.21' });
 
       done();
     });
