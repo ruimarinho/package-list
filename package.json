@@ -1,6 +1,6 @@
 {
   "name": "package-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A thin wrapper around npm to list installed packages during runtime",
   "bin": {
     "packages": "bin/cli.js"
