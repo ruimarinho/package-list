@@ -1,0 +1,12 @@
+{
+  "name": "app3",
+  "version": "0.0.0",
+  "description": "App3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

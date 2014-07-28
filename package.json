@@ -1,0 +1,39 @@
+{
+  "name": "package-list",
+  "version": "0.0.1",
+  "description": "A thin wrapper around npm to list installed packages during runtime",
+  "bin": {
+    "packages": "bin/cli.js"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "list",
+    "installed",
+    "packages",
+    "runtime"
+  ],
+  "author": {
+    "name": "Rui Marinho",
+    "email": "rui.marinho@seegno.com",
+    "url": "http://seegno.com"
+  },
+  "main": "./lib/index.js",
+  "homepage": "https://github.com/seegno/packagels",
+  "bugs": "https://github.com/seegno/packagels/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/seegno/packagels.git"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha test/test.js"
+  },
+  "dependencies": {
+    "debug": "^1.0.4",
+    "npm": "^1.4.21"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.1",
+    "should": "^4.0.4"
+  }
+}
