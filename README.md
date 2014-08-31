@@ -1,6 +1,6 @@
 # package-list
 
-A thin wrapper around npm to list installed packages during runtime. Includes support for listing missing and extraneous packages, and also works great when launched as a child process, which makes it a good candidate for tools like [pm2](https://github.com/Unitech/pm2) - instead of listing pm2's dependencies, it will list your own project's dependencies, as expected.
+A thin wrapper around `read-installed` to list installed packages during runtime. Includes support for listing missing and extraneous packages, and also works great when launched as a child process, which makes it a good candidate for tools like [pm2](https://github.com/Unitech/pm2) - instead of listing pm2's dependencies, it will list your own project's dependencies, as expected.
 
 ## Status
 
@@ -33,7 +33,7 @@ packages(function(err, pkgs) {
   console.log('Result is', pkgs);
 });
 
-// Result is { debug: '1.0.4', npm: '1.4.21', mocha: '1.21.1', should: '4.0.4' }
+// Result is { read-installed: '3.1.1', mocha: '1.21.1', should: '4.0.4' }
 ```
 
 ## Tests

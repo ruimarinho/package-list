@@ -11,7 +11,7 @@ var util = require('util');
 describe('package list', function() {
   it('should return the list of installed pkgs', function(done) {
     packages(function(err, pkgs) {
-      pkgs.should.eql({ 'mocha': '1.21.3', 'npm': '1.4.21' });
+      pkgs.should.eql({ 'read-installed': '3.1.1', 'mocha': '1.21.3' });
 
       done();
     });
