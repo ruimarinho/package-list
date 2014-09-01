@@ -5,7 +5,7 @@
   "bin": {
     "packages": "bin/cli.js"
   },
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "keywords": [
     "list",
     "installed",
@@ -17,7 +17,6 @@
     "email": "rui.marinho@seegno.com",
     "url": "http://seegno.com"
   },
-  "main": "./lib/index.js",
   "homepage": "https://github.com/seegno/packagels",
   "bugs": "https://github.com/seegno/packagels/issues",
   "license": "MIT",
@@ -29,7 +28,7 @@
     "test": "NODE_ENV=test ./node_modules/.bin/mocha test/test.js"
   },
   "dependencies": {
-    "npm": "1.4.21"
+    "read-installed": "3.1.1"
   },
   "devDependencies": {
     "mocha": "1.21.3",
